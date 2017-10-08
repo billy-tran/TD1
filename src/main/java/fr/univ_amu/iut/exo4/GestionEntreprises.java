@@ -6,6 +6,7 @@ import java.time.Month;
 public class GestionEntreprises {
     public static void main(String[] args) {
 
+
         LocalDate dateEmploiEmploye1 = LocalDate.of(2001, Month.JANUARY,1);
         LocalDate dateEmploiEmploye2 = LocalDate.of(2002,Month.FEBRUARY,2);
         LocalDate dateEmploiEmploye3 = LocalDate.of(2003,Month.MARCH,3);
