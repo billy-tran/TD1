@@ -14,7 +14,6 @@ public class Employe
     private double base;
     private double nbHeures;
 
-
     public Employe(int numeroEmploye, int numeroSecurite, String nom, String prenom, int echellon, LocalDate dateNaissance, LocalDate dateEmploi, double base, double nbHeures) {
         this.numeroEmploye = numeroEmploye;
         this.numeroSecurite = numeroSecurite;
@@ -69,5 +68,10 @@ public class Employe
     public double getNbHeures() {
         return nbHeures;
     }
+
+    public void setDateEmploi(LocalDate dateEmploi) {
+        this.dateEmploi = dateEmploi;
+    }
+
 }
 
